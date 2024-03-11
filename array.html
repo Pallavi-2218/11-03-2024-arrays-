@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Methods</title>
+</head>
+<body>
+    <script>
+        let arr = [1,5,7,12,30];
+        document.write(arr[0] +'<br>');//printing values using index
+        for(let a of arr)
+        {
+            document.write(a +" ");//printing all elements in the array without using index
+        }
+        
+        document.write("<br>");
+        
+        for(let i=0;i<arr.length;i++)
+        {
+            document.write(arr[i] +" ");//printing all elements in the array using index
+        }
+        document.write("<br>")
+
+        //write a JavaScript program to print even numbers from array
+        document.write("Even numbers:-")
+        for(let a of arr)
+        {
+            if(a%2==0)
+            {
+                document.write(a +" ");//to print even numbers
+            }
+        
+        }
+        document.write("<br>")
+
+
+        //write a JavaScript program to print odd numbers from array
+        document.write("Odd numbers:-")
+        for(let a of arr)
+        {
+            if(a%2!=0)
+            {
+                document.write(+a +" ");//to print odd numbers
+            }
+        
+        }
+    </script>
+</body>
+</html>

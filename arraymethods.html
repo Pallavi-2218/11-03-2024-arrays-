@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Methods</title>
+</head>
+<body>
+    <script>
+        let arr = ["p","a","l","l","a","v","ee"];
+        let a=["a","b"];
+        document.write(arr+"<br>") ;
+        arr.pop();//to remove the last elemnet 
+        document.write(arr+"<br>") 
+        arr.push("i");//to add element at last
+        document.write(arr+"<br>")
+        arr.shift();//to remove the first element
+        document.write(arr+"<br>")
+        arr.unshift("P");
+        document.write(arr+"<br>");
+        arr.splice(0,1,"p") //Removing P and adding p at 0th index
+        document.write(arr+"<br>");
+        arr.slice(0,3)//printing oth,1st and 2nd elements
+        document.write(arr+"<br>");
+        document.write(arr.join("")+"<br>");//add all the elements of array into one string
+        let c = arr.concat(a);//to add two arrys
+        document.write(c+"<br>");
+         var s  = arr.sort();//sorting all the elements of an array using dictionary order
+        document.write(s+"<br>");
+
+        
+
+    </script>
+</body>
+</html>
